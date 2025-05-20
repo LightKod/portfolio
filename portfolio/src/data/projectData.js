@@ -13,6 +13,12 @@ const projectData = [
         image: "projects/wob.png",
     },
     {
+        id: "modelVou",
+        title: "VOU Game",
+        description: "(Graduation Project) A Gamify Marketing Platform",
+        image: "projects/vou.svg",
+    },
+    {
         id: "modelTapMaster3D",
         title: "Tap Master 3D",
         description: "Puzzle Game",

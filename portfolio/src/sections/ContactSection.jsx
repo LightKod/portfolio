@@ -6,7 +6,8 @@ const ContactSection = () => {
                 <div className="separator default-pattern " />
 
                 {/* Parallax background */}
-                <div className="image-render-pixel absolute top-0 left-0 h-full w-full bg-scroll pointer-events-none z-0 flex">
+                <div className="image-render-pixel absolute top-0 left-0 h-full w-full bg-scroll pointer-events-none z-0 flex "
+                    style={{ animationDuration: '90s' }}>
                     <img src="/City/bg3.png" alt="bg3" />
                     <img src="/City/bg3.png" alt="bg3 duplicate" />
                 </div>
