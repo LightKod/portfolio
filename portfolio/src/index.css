@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-snap-container {
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
