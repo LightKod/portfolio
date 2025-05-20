@@ -6,3 +6,29 @@
   scroll-snap-type: y mandatory;
   -webkit-overflow-scrolling: touch;
 }
+
+
+/* In your global CSS or style file */
+@keyframes scrollBackground {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.bg-scroll {
+  width: 200%;
+  display: flex;
+  animation: scrollBackground linear infinite;
+  animation-duration: 20s;
+  /* adjust speed */
+}
+
+.bg-scroll img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
