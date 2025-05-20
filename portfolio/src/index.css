@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,8 +10,21 @@
   -webkit-overflow-scrolling: touch;
 }
 
+@font-face {
+  font-family: 'ArcadeOut';
+  src: url('/fonts/8bit-arcade-out.ttf') format('truetype');
+}
 
-/* In your global CSS or style file */
+@font-face {
+  font-family: 'ArcadeIn';
+  src: url('/fonts/8bit-arcade-in.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ka1';
+  src: url('/fonts/ka1.ttf') format('truetype');
+}
+
 @keyframes scrollBackground {
   from {
     transform: translateX(0);
@@ -17,6 +33,14 @@
   to {
     transform: translateX(-50%);
   }
+}
+
+.text-shadow {
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.text-shadow-heavy {
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.8));
 }
 
 .bg-scroll {
@@ -31,4 +55,59 @@
   width: 50%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.separator-rtl {
+  height: calc(var(--sky-pixels-per-unit, 32px));
+  background-repeat: repeat-x;
+  background-size: var(--sky-pixels-per-unit, 32px) auto;
+  image-rendering: pixelated;
+  animation: masthead-scroll 30s linear infinite;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.separator-ltr {
+  height: calc(var(--sky-pixels-per-unit, 32px));
+  background-repeat: repeat-x;
+  background-size: var(--sky-pixels-per-unit, 32px) auto;
+  image-rendering: pixelated;
+
+  transform: scaleX(-1);
+
+  animation: masthead-scroll-reverse 30s linear infinite;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+
+
+/* Example background image, adjust path */
+.default-pattern {
+  background-image: url("/City/pattern.png");
+}
+
+/* Animation for horizontal scrolling */
+@keyframes masthead-scroll {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -1000px 0;
+  }
+}
+
+
+@keyframes masthead-scroll-reverse {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -1000px 0;
+  }
 }
