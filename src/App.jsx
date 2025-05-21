@@ -3,6 +3,7 @@ import MainSectionCity from "./sections/MainSection_City";
 import TimelineSection from "./sections/TimelineSection";
 import AchivementSection from "./sections/AchivementSection";
 import ContactSection from "./sections/ContactSection";
+import MusicToggleButton from "./components/MusicToggleButton";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TimelineSection />
       <AchivementSection />
       <ContactSection />
+      <MusicToggleButton />
     </div>
   );
 }

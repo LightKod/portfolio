@@ -26,7 +26,7 @@ const ProjectItem = ({
 
     return (
         <div
-            className={`bg-[#1b1f21] rounded-t-xl transition-all duration-300 cursor-pointer overflow-hidden border-t relative
+            className={`bg-[#1b1f21] rounded-t-xl transition-all duration-300 cursor-pointer overflow-hidden border-t border-[#f68958] relative
                 ${index > 0 ? "mt-[-8px]" : ""}`}
             onClick={onClick}
             style={{ zIndex: 100 + index }}
@@ -63,16 +63,16 @@ const ProjectItem = ({
                     />
 
                     <p className="text-white font-vt323 text-lg mb-2">
-                        <strong>Description:</strong> {"AAA"}
+                        <strong>Description:</strong> {description}
                     </p>
                     <p className="text-white font-vt323 text-lg mb-2">
-                        <strong>Key Features:</strong> {"AAA"}
+                        <strong>Key Features:</strong> {keyFeatures.join(", ")}
                     </p>
                     <p className="text-white font-vt323 text-lg mb-2">
-                        <strong>Development Team:</strong> {"AAA"}
+                        <strong>Development Team:</strong> {developmentTeam}
                     </p>
                     <p className="text-white font-vt323 text-lg mb-4">
-                        <strong>Technology:</strong> {"AAA"}
+                        <strong>Technology:</strong> {technology.join(", ")}
                     </p>
 
                     <div className="flex justify-center flex-wrap gap-4">

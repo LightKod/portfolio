@@ -5,6 +5,9 @@ const projectData = [
         title: "Elemental Labyrinth",
         description: "Tower Defense Game with Mazing, Tower Fusion and Online Multiplayer",
         image: "projects/Elemental Labyrinth.png",
+        keyFeatures: [],
+        developmentTeam: "Solo Project",
+        technology: [],
 
         buttons: [
             {
@@ -27,6 +30,9 @@ const projectData = [
         title: "World of Blast",
         description: "NFT Game on Blast Chain",
         image: "projects/wob.png",
+        keyFeatures: [],
+        developmentTeam: "5 People",
+        technology: [],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_web.png",
@@ -42,6 +48,9 @@ const projectData = [
         title: "Invoker Tactic",
         description: "Tactical RPG",
         image: "projects/invokertactic.png",
+        keyFeatures: [],
+        developmentTeam: "Solo Project",
+        technology: [],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_youtube.png",
@@ -56,6 +65,9 @@ const projectData = [
         title: "VOU Game",
         description: "(Graduation Project) A Gamify Marketing Platform",
         image: "projects/vou.svg",
+        keyFeatures: [],
+        developmentTeam: "4 People",
+        technology: [],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_web.png",
@@ -70,6 +82,9 @@ const projectData = [
         icon: "/portfolio/projects/ico_tap.png",
         description: "Mobile Puzzle Game",
         image: "projects/tapmaster3d.png",
+        keyFeatures: [],
+        developmentTeam: "4 People",
+        technology: [],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_android.png",
@@ -84,6 +99,9 @@ const projectData = [
         title: "Minos World",
         description: "Mobile Side-Scrolling Platformer",
         image: "projects/minosworld.png",
+        keyFeatures: [],
+        developmentTeam: "5+ People",
+        technology: [],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_android.png",
