@@ -5,17 +5,22 @@ const projectData = [
         title: "Elemental Labyrinth (Unity/C#)",
         description: "A Tower Defense Game designed and developed by myself.",
         image: "projects/Elemental Labyrinth.png",
-        keyFeatures: ["Rouguelike", "Tower Defense", "P2P Multiplayer", "Steamwork Integration"],
+        keyFeatures: [
+            "Roguelike Progression",
+            "Maze Building",
+            "Tower Fusion System",
+            "P2P Multiplayer",
+            "Steamworks Integration",
+            "Localization System",
+        ],
         developmentTeam: "Solo Project",
-        technology: ["Unity", "C#", "Photoshop", "Asesprite", "FMod"],
-
+        technology: ["Unity", "C#", "FMOD", "Photoshop", "Aseprite", "Steamworks SDK", "Netcode Networking"],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_steam.png",
                 text: "Steam",
                 href: "https://store.steampowered.com/app/3516960/Elemental_Labyrinth/",
             },
-
             {
                 icon: "/portfolio/icon/ico_youtube.png",
                 text: "Trailer",
@@ -28,11 +33,29 @@ const projectData = [
         id: "wob",
         icon: "/portfolio/projects/ico_wob.png",
         title: "World of Blast (React/PHP/Solidity)",
-        description: "NFT Game on Blast Chain",
+        description: "NFT Game on Blast Chain.",
         image: "projects/wob.png",
-        keyFeatures: ["NFT Integration", "Web3", "Play to Earn", "Wallet Authentication", "True Randomness", "Cached NFT Storage"],
+        keyFeatures: [
+            "NFT Integration",
+            "Play to Earn Economy",
+            "Wallet Authentication",
+            "Web3 Smart Contracts",
+            "On-chain Randomness",
+            "Gas Optimization",
+            "Decentralized Storage",
+        ],
         developmentTeam: "5 Members",
-        technology: ["React", "Node.js", "Solidity", "Hardhat", "TypeScript", "Tailwind CSS", "PHP", "MySQL"],
+        technology: [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Solidity",
+            "Hardhat",
+            "PHP",
+            "MySQL",
+            "Web3.js",
+            "IPFS",
+        ],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_web.png",
@@ -40,17 +63,27 @@ const projectData = [
                 href: "https://worldofblast.com/",
             },
         ],
-
     },
+
     {
         id: "vou",
         icon: "/portfolio/projects/ico_vou.svg",
-        title: "VOU Game (Unity/C#/Node.js/NextJS)",
-        description: "(Graduation Project) A Gamify Marketing Platform",
+        title: "VOU Game (Unity/C#/Express.js/NextJS)",
+        description: "(Graduation Project) A Gamify Marketing Platform.",
         image: "projects/vou.svg",
-        keyFeatures: ["Online Multiplayer", "Mobile Client", "Web Client"],
+        keyFeatures: ["Gamified Campaigns", "Online Multiplayer", "Mobile + Web Clients", "Voucher Integration"],
         developmentTeam: "4 Members",
-        technology: ["Node.js", "Unity", "Docker", "Linux", "Nginx", "MongoDB", "PostgreSQL"],
+        technology: [
+            "Unity",
+            "C#",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Docker",
+            "MongoDB",
+            "PostgreSQL",
+            "Nginx",
+        ],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_web.png",
@@ -59,15 +92,22 @@ const projectData = [
             },
         ],
     },
+
     {
         id: "modelMinosWorld",
         icon: "/portfolio/projects/ico_minos.png",
         title: "Minos World (Unity/C#)",
-        description: "Mobile Side-Scrolling Platformer",
+        description: "Mobile Side-Scrolling Platformer.",
         image: "projects/minosworld.png",
-        keyFeatures: ["Firebase Analytics", "In-App Purchase", "AdMob Integration", "IronSource Integration"],
+        keyFeatures: [
+            "In-App Purchases",
+            "Rewarded Ads",
+            "Firebase Analytics",
+            "IronSource Integration",
+            "Smooth Touch Controls",
+        ],
         developmentTeam: "7 Members",
-        technology: ["Unity", "C#"],
+        technology: ["Unity", "C#", "Firebase", "IronSource", "AdMob"],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_android.png",
@@ -76,15 +116,22 @@ const projectData = [
             },
         ],
     },
+
     {
         id: "modelTapMaster3D",
-        title: "Tap Master 3D (Unity/C#)",
         icon: "/portfolio/projects/ico_tap.png",
-        description: "Mobile Puzzle Game",
+        title: "Tap Master 3D (Unity/C#)",
+        description: "Mobile Puzzle Game.",
         image: "projects/tapmaster3d.png",
-        keyFeatures: ["Firebase Analytics", "In-App Purchase", "AdMob Integration", "IronSource Integration"],
+        keyFeatures: [
+            "Tactile Puzzle Mechanics",
+            "Level Progression System",
+            "Firebase Analytics",
+            "Reward Ads",
+            "In-App Purchase",
+        ],
         developmentTeam: "4 Members",
-        technology: ["Unity", "C#"],
+        technology: ["Unity", "C#", "Firebase", "IronSource", "AdMob"],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_android.png",
@@ -93,15 +140,67 @@ const projectData = [
             },
         ],
     },
+
+    {
+        id: "tcg",
+        icon: "/portfolio/projects/ico_tcg.png",
+        title: "TCG-Shop (Express.js)",
+        description: "A Server-side application for a Trading Card Shop.",
+        image: "projects/tcg.png",
+        keyFeatures: [
+            "Admin Dashboard",
+            "CRUD System",
+            "JWT Auth",
+            "Email Verification",
+            "VNPay Integration",
+            "User Roles & Permissions",
+        ],
+        developmentTeam: "3 Members",
+        technology: [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "JWT",
+            "Bcrypt",
+            "Nodemailer",
+            "VNPay",
+        ],
+        buttons: [
+            {
+                icon: "/portfolio/icon/ico_youtube.png",
+                text: "Demo",
+                href: "https://youtu.be/9kTAN0ht_yw",
+            },
+            {
+                icon: "/portfolio/icon/ico_github.png",
+                text: "Github",
+                href: "https://github.com/LightKod/WAD-21KTPM1",
+            },
+            {
+                icon: "/portfolio/icon/ico_web.png",
+                text: "Website",
+                href: "https://tcg-trading-card-game-final.onrender.com",
+            },
+        ],
+    },
+
     {
         id: "frog",
         icon: "/portfolio/projects/ico_frog.png",
         title: "Crossing Road (C++)",
         description: "Crossing Road Game written in C++ with OOP.",
-        image: "projects/snake.png",
-        keyFeatures: ["Save/Load", "Leaderboard", "Settings", "4 Different Game Modes", "Used Native C++ Graphics", "Local Multiplayer"],
+        image: "projects/frog.png",
+        keyFeatures: [
+            "Save & Load",
+            "Leaderboard",
+            "Settings Menu",
+            "4 Game Modes",
+            "Native C++ Graphics",
+            "Local Multiplayer",
+        ],
         developmentTeam: "3 Members",
-        technology: ["C", "C++", "OOP", "CMake"],
+        technology: ["C", "C++", "CMake", "OOP"],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_youtube.png",
@@ -115,15 +214,22 @@ const projectData = [
             },
         ],
     },
+
     {
         id: "snake",
         icon: "/portfolio/projects/ico_snake.png",
         title: "Snake Game (C)",
         description: "A Snake game written in C/C++.",
         image: "projects/snake.png",
-        keyFeatures: ["Save/Load", "Leaderboard", "Settings", "4 Different Game Modes", "Used Native C Graphics"],
+        keyFeatures: [
+            "Save/Load",
+            "Leaderboard",
+            "Settings Menu",
+            "4 Game Modes",
+            "Native Console Graphics",
+        ],
         developmentTeam: "4 Members",
-        technology: ["C", "CMake"],
+        technology: ["C", "C++", "CMake"],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_youtube.png",
@@ -137,15 +243,23 @@ const projectData = [
             },
         ],
     },
+
     {
         id: "invoker",
         icon: "/portfolio/projects/ico_invoker.png",
         title: "Invoker Tactic (Unity/C#)",
         description: "A Tactical RPG Game designed and developed by myself.",
         image: "projects/invokertactic.png",
-        keyFeatures: ["Randomize Map", "20+ Units", "50+ Skills", "50+ Items", "10+ Maps"],
+        keyFeatures: [
+            "Randomized Tactical Maps",
+            "20+ Unique Units",
+            "50+ Skills",
+            "50+ Items",
+            "10+ Map Types",
+            "Turn-Based Grid Combat",
+        ],
         developmentTeam: "Solo Project",
-        technology: ["Unity", "C#", "Photoshop", "Asesprite", "FMod"],
+        technology: ["Unity", "C#", "FMOD", "Photoshop", "Aseprite"],
         buttons: [
             {
                 icon: "/portfolio/icon/ico_youtube.png",
@@ -154,7 +268,6 @@ const projectData = [
             },
         ],
     },
-
 ];
 
 export default projectData;
