@@ -3,6 +3,7 @@ import LinkButton from "./LinkButton";
 const ProjectItem = ({
     icon,
     title,
+    subtitle,
     description,
     image,
     isOpen,
@@ -37,7 +38,12 @@ const ProjectItem = ({
                     alt={title}
                     className="w-8 h-8 image-render-pixel"
                 />
-                <h3 className="text-white font-vt323 text-2xl">{title}</h3>
+                <h3 className="text-white font-vt323 text-2xl">
+                    {title.split(" (")[0]}
+                    <span className="text-gray-400 text-xl ml-2 hidden sm:inline">
+                        ({subtitle})
+                    </span>
+                </h3>
             </div>
 
             {/* Animated container for the collapsible content */}
@@ -61,19 +67,23 @@ const ProjectItem = ({
                             width: "100%",
                         }}
                     />
+                    <p className="font-vt323 text-lg mb-2">
+                        <span className="text-white">Description:</span>{" "}
+                        <span className="text-gray-400">{description}</span>
+                    </p>
+                    <p className="font-vt323 text-lg mb-2">
+                        <span className="text-white">Key Features:</span>{" "}
+                        <span className="text-gray-400">{keyFeatures.join(", ")}</span>
+                    </p>
+                    <p className="font-vt323 text-lg mb-2">
+                        <span className="text-white">Development Team:</span>{" "}
+                        <span className="text-gray-400">{developmentTeam}</span>
+                    </p>
+                    <p className="font-vt323 text-lg mb-4">
+                        <span className="text-white">Technology:</span>{" "}
+                        <span className="text-gray-400">{technology.join(", ")}</span>
+                    </p>
 
-                    <p className="text-white font-vt323 text-lg mb-2">
-                        <strong>Description:</strong> {description}
-                    </p>
-                    <p className="text-white font-vt323 text-lg mb-2">
-                        <strong>Key Features:</strong> {keyFeatures.join(", ")}
-                    </p>
-                    <p className="text-white font-vt323 text-lg mb-2">
-                        <strong>Development Team:</strong> {developmentTeam}
-                    </p>
-                    <p className="text-white font-vt323 text-lg mb-4">
-                        <strong>Technology:</strong> {technology.join(", ")}
-                    </p>
 
                     <div className="flex justify-center flex-wrap gap-4">
                         {buttons.map(({ href, icon, text }, i) => (

@@ -2,7 +2,8 @@ const projectData = [
     {
         id: "el",
         icon: "/portfolio/projects/ico_el.png",
-        title: "Elemental Labyrinth (Unity/C#)",
+        title: "Elemental Labyrinth",
+        subtitle: "Unity/C#",
         description: "A Tower Defense Game designed and developed by myself.",
         image: "projects/Elemental Labyrinth.png",
         keyFeatures: [
@@ -28,11 +29,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "wob",
         icon: "/portfolio/projects/ico_wob.png",
-        title: "World of Blast (React/PHP/Solidity)",
+        title: "World of Blast",
+        subtitle: "React/PHP/Solidity",
         description: "NFT Game on Blast Chain.",
         image: "projects/wob.png",
         keyFeatures: [
@@ -64,11 +65,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "vou",
         icon: "/portfolio/projects/ico_vou.svg",
-        title: "VOU Game (Unity/C#/Express.js/NextJS)",
+        title: "VOU Game",
+        subtitle: "Unity/C#/Express.js/NextJS",
         description: "(Graduation Project) A Gamify Marketing Platform.",
         image: "projects/vou.svg",
         keyFeatures: ["Gamified Campaigns", "Online Multiplayer", "Mobile + Web Clients", "Voucher Integration"],
@@ -95,11 +96,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "modelMinosWorld",
         icon: "/portfolio/projects/ico_minos.png",
-        title: "Minos World (Unity/C#)",
+        title: "Minos World",
+        subtitle: "Unity/C#",
         description: "Mobile Side-Scrolling Platformer.",
         image: "projects/minosworld.png",
         keyFeatures: [
@@ -119,11 +120,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "modelTapMaster3D",
         icon: "/portfolio/projects/ico_tap.png",
-        title: "Tap Master 3D (Unity/C#)",
+        title: "Tap Master 3D",
+        subtitle: "Unity/C#",
         description: "Mobile Puzzle Game.",
         image: "projects/tapmaster3d.png",
         keyFeatures: [
@@ -143,11 +144,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "tcg",
         icon: "/portfolio/projects/ico_tcg.png",
-        title: "TCG-Shop (Express.js)",
+        title: "TCG-Shop",
+        subtitle: "Express.js",
         description: "A Server-side application for a Trading Card Shop.",
         image: "projects/tcg.png",
         keyFeatures: [
@@ -187,11 +188,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "frog",
         icon: "/portfolio/projects/ico_frog.png",
-        title: "Crossing Road (C++)",
+        title: "Crossing Road",
+        subtitle: "C++",
         description: "Crossing Road Game written in C++ with OOP.",
         image: "projects/frog.png",
         keyFeatures: [
@@ -217,11 +218,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "snake",
         icon: "/portfolio/projects/ico_snake.png",
-        title: "Snake Game (C)",
+        title: "Snake Game",
+        subtitle: "C",
         description: "A Snake game written in C/C++.",
         image: "projects/snake.png",
         keyFeatures: [
@@ -246,11 +247,11 @@ const projectData = [
             },
         ],
     },
-
     {
         id: "invoker",
         icon: "/portfolio/projects/ico_invoker.png",
-        title: "Invoker Tactic (Unity/C#)",
+        title: "Invoker Tactic",
+        subtitle: "Unity/C#",
         description: "A Tactical RPG Game designed and developed by myself.",
         image: "projects/invokertactic.png",
         keyFeatures: [
