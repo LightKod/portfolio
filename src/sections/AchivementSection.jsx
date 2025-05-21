@@ -4,7 +4,7 @@ import projectData from "../data/projectData";
 
 const AchievementSection = () => {
     return (
-        <section className="bg-[#2b2b45] py-16 px-4">
+        <section className="bg-[#2b2b45] py-16">
             <div className="separator-ltr default-pattern mb-16" />
             <div className="container mx-auto max-w-6xl">
                 <SectionHeader title="ARCHIVE" icon="icon/ico_bulb.png" />
