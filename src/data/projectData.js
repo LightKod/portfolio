@@ -2,7 +2,7 @@ const projectData = [
     {
         id: "modalElementalLabyrinth",
         title: "Elemental Labyrinth",
-        description: "A Tower Defense Game with Mazing, Tower Fusion and Online Multiplayer",
+        description: "Tower Defense Game with Mazing, Tower Fusion and Online Multiplayer",
         image: "projects/Elemental Labyrinth.png",
     },
 
@@ -13,6 +13,19 @@ const projectData = [
         image: "projects/wob.png",
     },
     {
+        id: "modalInvokerTactic",
+        title: "Invoker Tactic",
+        description: "Tactical RPG",
+        image: "projects/invokertactic.png",
+        buttons: [
+            {
+                icon: "ico/ico_youtube.png",
+                text: "Demo",
+                link: "https://youtu.be/Fv4muer8GAc",
+            },
+        ],
+    },
+    {
         id: "modelVou",
         title: "VOU Game",
         description: "(Graduation Project) A Gamify Marketing Platform",
@@ -21,13 +34,26 @@ const projectData = [
     {
         id: "modelTapMaster3D",
         title: "Tap Master 3D",
-        description: "Puzzle Game",
+        description: "Mobile Puzzle Game",
         image: "projects/tapmaster3d.png",
         buttons: [
             {
                 icon: "ico/googleplay.png",
                 text: "Google Play",
-                link: "https://play.google.com/store/apps/details?id=com.fc.pl.tap.master.tap.away&hl=vi",
+                link: "https://play.google.com/store/apps/details?id=com.fc.pl.tap.master.tap.away",
+            },
+        ],
+    },
+    {
+        id: "modelMinosWorld",
+        title: "Minos World",
+        description: "Mobile Side-Scrolling Platformer",
+        image: "projects/minosworld.png",
+        buttons: [
+            {
+                icon: "ico/googleplay.png",
+                text: "Google Play",
+                link: "https://play.google.com/store/apps/details?id=com.marinobros.jump.run.world.adventure",
             },
         ],
     },
