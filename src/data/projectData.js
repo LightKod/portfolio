@@ -72,7 +72,7 @@ const projectData = [
             {
                 icon: "/portfolio/icon/ico_android.png",
                 text: "Google Play",
-                link: "https://play.google.com/store/apps/details?id=com.marinobros.jump.run.world.adventure",
+                href: "https://play.google.com/store/apps/details?id=com.marinobros.jump.run.world.adventure",
             },
         ],
     },
