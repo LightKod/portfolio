@@ -14,7 +14,7 @@ const AchievementSection = () => {
             duration: 500,
             mirror: true,
             once: false,
-            offset: 300,
+            offset: 200,
         });
     }, []);
 
