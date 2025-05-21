@@ -6,6 +6,7 @@ import TimelineItem from "../components/TimelineItem";
 import TimelineArrow from "../components/TimelineArrow";
 import SectionHeader from "../components/SectionHeader";
 import timelineData from "../data/timelineData";
+import LinkButton from "../components/LinkButton";
 
 const TimelineSection = () => {
     useEffect(() => {
@@ -43,22 +44,7 @@ const TimelineSection = () => {
                     ))}
                 </ul>
                 <div className="text-center mt-16">
-                    <a
-                        href="/docs/cv.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center outline outline-2 outline-[#f68958] 
-                            bg-[#1b1f21] hover:scale-110  text-white text-[20px] text-shadow-heavy
-                            font-vt323 px-6 py-2 rounded transition"
-                    >
-                        <img
-                            src="/portfolio/icon/ico_file.png"
-                            alt="file icon"
-                            className="w-8 h-8 mr-2 image-render-pixel"
-                            loading="lazy"
-                        />
-                        Take a peek at my CV
-                    </a>
+                    <LinkButton href="/portfolio/docs/cv.pdf" icon="/portfolio/icon/ico_file.png" text="Take a peek at my CV" />
                 </div>
             </div>
         </section>
