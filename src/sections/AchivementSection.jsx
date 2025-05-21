@@ -1,18 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import SectionHeader from "../components/SectionHeader";
 import ProjectItem from "../components/ProjectItem";
 import projectData from "../data/projectData";
 
 const AchievementSection = () => {
-    // Open the first project by default
     const [openId, setOpenId] = useState(projectData[0]?.id || null);
+
+    useEffect(() => {
+        AOS.init({
+            duration: 500,
+            mirror: true,
+            once: false,
+            offset: 300,
+        });
+    }, []);
 
     return (
         <section className="bg-[#2b2b45] py-16">
             <div className="separator-ltr default-pattern mb-16" />
             <div className="container mx-auto max-w-2xl">
                 <SectionHeader title="ARCHIVE" icon="icon/ico_bulb.png" />
-                <div className="flex flex-col mt-12 lg:mx-12 mx-8">
+                <div className="flex flex-col mt-12 lg:mx-12 mx-8" data-aos="fade-up">
                     {projectData.map((item, index) => (
                         <ProjectItem
                             key={item.id}
@@ -26,6 +37,7 @@ const AchievementSection = () => {
                             }}
                             isLast={index === projectData.length - 1}
                             index={index}
+
                         />
                     ))}
                 </div>

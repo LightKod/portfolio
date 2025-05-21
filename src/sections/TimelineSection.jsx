@@ -43,7 +43,7 @@ const TimelineSection = () => {
                         </li>
                     ))}
                 </ul>
-                <div className="text-center mt-16">
+                <div className="text-center mt-16" data-aos="fade-up" >
                     <LinkButton href="/portfolio/docs/cv.pdf" icon="/portfolio/icon/ico_file.png" text="Take a peek at my CV" />
                 </div>
             </div>
