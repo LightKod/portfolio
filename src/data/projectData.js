@@ -83,6 +83,9 @@ const projectData = [
             "MongoDB",
             "PostgreSQL",
             "Nginx",
+            "CI/CD",
+            "Redis",
+            "Socket.IO",
         ],
         buttons: [
             {
