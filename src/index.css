@@ -59,25 +59,25 @@
 
 
 .separator-rtl {
-  height: calc(var(--sky-pixels-per-unit, 32px));
+  height: calc(var(--sky-pixels-per-unit, 24px));
   background-repeat: repeat-x;
-  background-size: var(--sky-pixels-per-unit, 32px) auto;
+  background-size: var(--sky-pixels-per-unit, 24px) auto;
   image-rendering: pixelated;
-  animation: masthead-scroll 30s linear infinite;
+  animation: masthead-scroll 60s linear infinite;
   width: 100%;
   position: relative;
   z-index: 10;
 }
 
 .separator-ltr {
-  height: calc(var(--sky-pixels-per-unit, 32px));
+  height: calc(var(--sky-pixels-per-unit, 24px));
   background-repeat: repeat-x;
-  background-size: var(--sky-pixels-per-unit, 32px) auto;
+  background-size: var(--sky-pixels-per-unit, 24px) auto;
   image-rendering: pixelated;
 
   transform: scaleX(-1);
 
-  animation: masthead-scroll-reverse 30s linear infinite;
+  animation: masthead-scroll-reverse 60s linear infinite;
   width: 100%;
   position: relative;
   z-index: 10;
@@ -87,7 +87,7 @@
 
 /* Example background image, adjust path */
 .default-pattern {
-  background-image: url("/City/pattern.png");
+  background-image: url("/portfolio/City/pattern.png");
 }
 
 /* Animation for horizontal scrolling */

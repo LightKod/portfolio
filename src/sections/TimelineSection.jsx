@@ -31,11 +31,11 @@ const TimelineSection = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center outline outline-2 outline-[#f68958] 
-                            bg-[#1b1f21] hover:bg-[#fd5c71] text-white text-[20px] text-shadow-heavy
+                            bg-[#1b1f21] hover:scale-110  text-white text-[20px] text-shadow-heavy
                             font-vt323 px-6 py-2 rounded transition"
                     >
                         <img
-                            src="/icon/ico_file.png"
+                            src="/portfolio/icon/ico_file.png"
                             alt="file icon"
                             className="w-8 h-8 mr-2 image-render-pixel"
                             loading="lazy"

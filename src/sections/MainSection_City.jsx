@@ -3,7 +3,7 @@ const MainSectionCity = () => {
         <section className="relative w-full h-screen overflow-hidden bg-white image-render-pixel">
             {/* Sky background */}
             <img
-                src="/City/bg0.png"
+                src="/portfolio/City/bg0.png"
                 alt="sky"
                 className="absolute inset-0 w-full h-full object-cover image-render-pixel pointer-events-none"
             />
@@ -11,11 +11,11 @@ const MainSectionCity = () => {
             {/* bg1: Clouds Layer */}
             <div className="absolute top-0 left-0 h-full bg-scroll pointer-events-none" style={{ animationDuration: '60s' }}>
                 <img
-                    src="/City/bg1.png"
+                    src="/portfolio/City/bg1.png"
                     alt="bg1"
                 />
                 <img
-                    src="/City/bg1.png"
+                    src="/portfolio//City/bg1.png"
                     alt="bg1 duplicate"
                 />
             </div>
@@ -23,11 +23,11 @@ const MainSectionCity = () => {
             {/* bg2: Mountains/Buildings Layer */}
             <div className="absolute top-0 left-0 h-full bg-scroll pointer-events-none" style={{ animationDuration: '30s' }}>
                 <img
-                    src="/City/bg2.png"
+                    src="/portfolio/City/bg2.png"
                     alt="bg2"
                 />
                 <img
-                    src="/City/bg2.png"
+                    src="/portfolio/City/bg2.png"
                     alt="bg2 duplicate"
                 />
             </div>

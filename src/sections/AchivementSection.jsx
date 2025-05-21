@@ -5,11 +5,11 @@ import projectData from "../data/projectData";
 const AchievementSection = () => {
     return (
         <section className="bg-[#2b2b45] py-16 px-4">
-            <div className="separator-rtl default-pattern mb-16" />
+            <div className="separator-ltr default-pattern mb-16" />
             <div className="container mx-auto max-w-6xl">
-                <SectionHeader title="ACHIEVEMENT" icon="icon/ico_bulb.png" />
+                <SectionHeader title="ARCHIVE" icon="icon/ico_bulb.png" />
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 mt-12 md:max-w-xl xl:max-w-6xl mx-auto">
                     {projectData.map((item) => (
                         <ProjectItem
                             key={item.id}
