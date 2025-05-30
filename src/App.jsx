@@ -1,19 +1,15 @@
-import MainSection_NightSky from "./sections/MainSection_NightSky";
-import MainSectionCity from "./sections/MainSection_City";
-import TimelineSection from "./sections/TimelineSection";
-import AchivementSection from "./sections/AchivementSection";
-import ContactSection from "./sections/ContactSection";
-import MusicToggleButton from "./components/MusicToggleButton";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Privacy from "./screens/Privacy";
+import Homepage from "./screens/Homepage";
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <MainSectionCity />
-      <TimelineSection />
-      <AchivementSection />
-      <ContactSection />
-      <MusicToggleButton />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/portfolio" element={<Homepage />} />
+        <Route path="/portfolio/privacy" element={<Privacy />} />
+      </Routes>
+    </Router>
   );
 }
 
