@@ -1,14 +1,5 @@
 const timelineData = [
   {
-    date: "May 1st 2003",
-    type: "",
-    text: "User Created",
-    description: "Profile initialized. Origin: Vietnam",
-  },
-  {
-    isArrow: true
-  },
-  {
     date: "2018 - 2021",
     type: "EDUCATION",
     text: "Graduated from High School",

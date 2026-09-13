@@ -85,11 +85,6 @@
 
 
 
-/* Example background image, adjust path */
-.default-pattern {
-  background-image: url("/portfolio/City/pattern.png");
-}
-
 /* Animation for horizontal scrolling */
 @keyframes masthead-scroll {
   from {
