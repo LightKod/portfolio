@@ -21,6 +21,7 @@ const projects = [
     snake_game,
     world_of_blast,
     tcg_shop,
+    vou_game,
 ];
 
 export default projects;
