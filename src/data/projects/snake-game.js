@@ -1,6 +1,7 @@
 const project = {
         name: "Snake Game",
         sub: "Game - Arcade",
+        time: "2021",
         description: "A Snake game written in C/C++.",
         icon: "/portfolio/projects/snake-game/icon.png",
         capsule: "projects/snake-game/capsule.png",
@@ -13,5 +14,6 @@ const project = {
         ]};
 
 export default project;
+
 
 

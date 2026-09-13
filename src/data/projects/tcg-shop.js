@@ -1,6 +1,7 @@
 const project = {
         name: "TCG-Shop",
         sub: "Web - E-commerce",
+        time: "2023",
         description: "A server-side application for a Trading Card Shop.",
         icon: "/portfolio/projects/tcg-shop/icon.png",
         capsule: "projects/tcg-shop/capsule.png",
@@ -14,5 +15,6 @@ const project = {
         ]};
 
 export default project;
+
 
 

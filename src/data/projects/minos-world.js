@@ -1,6 +1,7 @@
 const project = {
         name: "Minos World",
         sub: "Mobile Game - Platformer",
+        time: "2024",
         description: "Mobile Side-Scrolling Platformer.",
         icon: "/portfolio/projects/minos-world/icon.png",
         capsule: "projects/minos-world/capsule.png",
@@ -10,5 +11,6 @@ const project = {
         buttons: [{ text: "Google Play", href: "https://play.google.com/store/apps/details?id=com.marinobros.jump.run.world.adventure" }]};
 
 export default project;
+
 
 

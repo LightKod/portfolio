@@ -1,6 +1,7 @@
 const project = {
         name: "VOU Game",
         sub: "Web - Gamify",
+        time: "2024",
         description: "A gamify marketing platform built as a graduation project.",
         icon: "/portfolio/projects/vou-game/icon.svg",
         capsule: "projects/vou-game/capsule.png",
@@ -10,5 +11,6 @@ const project = {
         buttons: [{ text: "Website", href: "https://vougame.com/" }]};
 
 export default project;
+
 
 

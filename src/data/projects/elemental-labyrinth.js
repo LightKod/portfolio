@@ -1,5 +1,6 @@
 const project = {name: "Elemental Labyrinth",
         sub: "Game - Tower defense",
+        time: "2023 - 2025",
         description: "A strategic Tower Defense game where you build your own maze, summon random elemental Spirits, and fuse them into powerful forms to stop relentless waves of enemies.",
         icon: "/portfolio/projects/elemental-labyrinth/icon.png",
         capsule: "projects/elemental-labyrinth/capsule.png",
@@ -23,5 +24,6 @@ const project = {name: "Elemental Labyrinth",
         ]};
 
 export default project;
+
 
 

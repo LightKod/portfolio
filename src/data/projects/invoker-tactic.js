@@ -1,6 +1,7 @@
 const project = {
         name: "Invoker Tactic",
         sub: "Game - Tactical RPG",
+        time: "2020 - 2023",
         description: "A Tactical RPG Game designed and developed by myself.",
         icon: "/portfolio/projects/invoker-tactic/icon.png",
         capsule: "projects/invoker-tactic/capsule.png",
@@ -10,5 +11,6 @@ const project = {
         buttons: [{ text: "Demo", href: "https://youtu.be/Fv4muer8GAc" }]};
 
 export default project;
+
 
 

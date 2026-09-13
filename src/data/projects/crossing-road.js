@@ -1,6 +1,7 @@
 const project = {
         name: "Crossing Road",
         sub: "Game - Arcade",
+        time: "2022",
         description: "Crossing Road Game written in C++ with OOP.",
         icon: "/portfolio/projects/crossing-road/icon.png",
         capsule: "projects/crossing-road/capsule.png",
@@ -13,5 +14,6 @@ const project = {
         ]};
 
 export default project;
+
 
 
